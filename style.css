@@ -1,0 +1,19 @@
+.container {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.profile {
+    background-color: lightblue;
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: right;
+    margin-top: 400px;
+}
