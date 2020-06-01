@@ -12,7 +12,7 @@ var container = document.querySelector('.container');
 
 function userCard(jsonObj) {
   var pagination = document.querySelector('.pagination');
-  var notesOnPage = 9;
+  var notesOnPage = 6;
   var countOfPages = Math.ceil(jsonObj.length / notesOnPage);
   var items = [];
   for (var i = 1; i <= countOfPages; i += 1) {
