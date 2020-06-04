@@ -30,7 +30,7 @@ img {
     border-radius: 50%;
 }
 
-p {
+.types {
     position: relative;
     top: -120px;
     left: 200px;
@@ -48,22 +48,6 @@ a:hover {
     text-decoration: underline;
 }
 
-.pagination {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-}
-
-.pagination li {
-    margin-right: 5px;
-    padding: 10px;
-    border: 1px solid black;
-}
-
-.pagination li:hover {
-    cursor: pointer;
-}
-
-.pagination li.active {
-    box-shadow: 0 0 5px 0px red;
+.buttons {
+    text-align: center;
 }
